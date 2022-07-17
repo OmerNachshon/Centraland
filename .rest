@@ -1,0 +1,6 @@
+PUT http://localhost:3001/updateUser/0
+Content-Type: application/json
+
+{
+    "newFunds": 500
+}
