@@ -7,7 +7,9 @@ app.use(cors());
 app.use(express.json());
 
 //connect to mongoose
-mongoose.connect("mongodb+srv://user_name:password@.....");
+mongoose.connect(
+  "mongodb+srv://omer_admin:1q2w3e4r@cluster0.dpppd.mongodb.net/DataBase"
+);
 
 //require route
 app.use("/", require("./routes/landRoute"));
